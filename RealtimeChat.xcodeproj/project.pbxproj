@@ -14,6 +14,7 @@
 		3505201B1FB0074B00A1FFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350520191FB0074B00A1FFE0 /* Main.storyboard */; };
 		3505201D1FB0074B00A1FFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3505201C1FB0074B00A1FFE0 /* Assets.xcassets */; };
 		350520201FB0074B00A1FFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3505201E1FB0074B00A1FFE0 /* LaunchScreen.storyboard */; };
+		3577CD2C1FB9FC7400D4FC1B /* PubNubManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577CD2B1FB9FC7400D4FC1B /* PubNubManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3505201C1FB0074B00A1FFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3505201F1FB0074B00A1FFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		350520211FB0074C00A1FFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3577CD2B1FB9FC7400D4FC1B /* PubNubManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PubNubManager.swift; sourceTree = "<group>"; };
 		360B0A4114E11B55044375C6 /* Pods_RealtimeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealtimeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68AE92D496327EC1B38C8C05 /* Pods-RealtimeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealtimeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealtimeChat/Pods-RealtimeChat.debug.xcconfig"; sourceTree = "<group>"; };
 		8F62E16FEEEC2C02A2E26A07 /* Pods-RealtimeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealtimeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealtimeChat/Pods-RealtimeChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				350520131FB0074B00A1FFE0 /* AppDelegate.swift */,
 				350520151FB0074B00A1FFE0 /* FirstViewController.swift */,
 				350520171FB0074B00A1FFE0 /* SecondViewController.swift */,
+				3577CD2B1FB9FC7400D4FC1B /* PubNubManager.swift */,
 				350520191FB0074B00A1FFE0 /* Main.storyboard */,
 				3505201C1FB0074B00A1FFE0 /* Assets.xcassets */,
 				3505201E1FB0074B00A1FFE0 /* LaunchScreen.storyboard */,
@@ -221,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				350520181FB0074B00A1FFE0 /* SecondViewController.swift in Sources */,
+				3577CD2C1FB9FC7400D4FC1B /* PubNubManager.swift in Sources */,
 				350520141FB0074B00A1FFE0 /* AppDelegate.swift in Sources */,
 				350520161FB0074B00A1FFE0 /* FirstViewController.swift in Sources */,
 			);
